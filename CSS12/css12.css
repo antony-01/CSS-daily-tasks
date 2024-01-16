@@ -1,0 +1,22 @@
+td{
+    height:70px;
+    width:70px;
+
+ }
+ table{
+   margin-left: 380px;
+ }
+  table,tr,td{
+    border:1px solid black;
+   
+
+  }
+    #one td:nth-child(even){
+    background-color: black;
+  }
+  #two td:nth-child(odd){
+    background-color: black;
+  }
+   h1{
+      text-align : center;
+   }

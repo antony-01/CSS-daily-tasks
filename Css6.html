@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS page</title>
+    <style>
+        *{
+            vertical-align: top;
+        }
+       div{
+
+        width:300px;
+        height:290px;
+        border:1px solid black;
+        display:inline-block;
+        margin-left:10px;
+       
+       }
+       .one{
+        background-color:white;
+       }
+       .two{
+        width:900px;
+        height:700px;
+        overflow:scroll;
+        border:none;
+    
+       }
+       .one p{
+    
+      margin-bottom: 4px;    
+      margin-top:0px;
+      margin-left:100px;
+      
+       }
+       h1{
+        text-align:center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom:10px;
+        background-color:rgb(207, 207, 207);
+
+       }
+       .two div{
+        display: block;
+        width:100%;
+        overflow:scroll;
+        background-color:white;
+       }
+       body{
+       background-color: #5890a1;
+       }
+    </style>
+
+</head>
+<body>
+    <div class="one">
+        <h1> CSS Chapters</h1>
+        <hr>
+   <p><a href="#ch1" > Chapter 1</a></p>
+   <p> <a href="#ch2" > Chapter 2</a></p>
+   <p> <a href="#ch3" > Chapter 3</a></p>
+   <p><a href="#ch4" > Chapter 4</a></p>
+   <p><a href="#ch5" > Chapter 5</a></p>
+   <p><a href="#ch6" > Chapter 6</a></p>
+   <p><a href="#ch7" > Chapter 7</a></p>
+   <p><a href="#ch8" > Chapter 8</a></p>
+   <p><a href="#ch9" > Chapter 9</a></p>
+   <p><a href="#ch10" > Chapter 10</a></p>
+
+    </div>
+    <div class="two">
+     <div class="chapter1" id="ch1">
+    <h1>1.CSS Introduction</h1>
+    <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+     </div>
+     <div class="chapter2" id="ch2">
+     <h1>2.How To Add CSS</h1>
+     <hr>
+     <p>Three Ways to Insert CSS</p>
+     <p>1.External CSS</p>
+      <p>2.Internal CSS</p> 
+    <p> 3.Inline CSS</p>
+   <p>With an external style sheet, you can change the look of an entire website by changing just one file!
+    Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</p>
+    <p>internal style sheet may be used if one single HTML page has a unique style.
+        The internal style is defined inside the element, inside the head section.</p>
+
+     </div>
+     <div class="chapter3" id="ch3">
+
+        <h1>3.CSS Backgrounds</h1>
+        <hr>
+        <p>The CSS background properties are used to add background effects for elements.</p>
+        <p>With CSS, a color is most often specified by:</p>
+         <p>   a valid color name - like "red" </p>
+        <p>  a HEX value - like "#ff0000"   </p>
+        <p>  an RGB value - like "rgb(255,0,0)" </p>
+       <p>      Look at CSS Color Values for a complete list of possible color values.</p>
+       <p>The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
+     </div>
+     <div class="chapter4" id="ch4">
+     <h1>  4.CSS Borders</h1>
+     <hr>
+     <p> The CSS border properties allow you to specify the style, width, and color of an element's border.
+     </p>
+     <p>The border-style property specifies what kind of border to display.
+
+        <p>The following values are allowed:</p>
+        
+        dotted - Defines a dotted border,
+        dashed - Defines a dashed border,
+        solid - Defines a solid border,
+        double - Defines a double border,
+        groove - Defines a 3D grooved border. The effect depends on the border-color value,
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value,
+        inset - Defines a 3D inset border. The effect depends on the border-color value,
+        outset - Defines a 3D outset border. The effect depends on the border-color value,
+        none - Defines no border,
+        hidden - Defines a hidden border</p>
+
+     </div>
+     <div class="chapter5" id="ch5">
+        <h1> 5.CSS Box Model</h1>
+        <hr>
+        <p>The CSS Box Model
+            In CSS, the term "box model" is used when talking about design and layout.
+            The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model:</p>
+        <p>Explanation of the different parts:
+            Content - The content of the box, where text and images appear
+            Padding - Clears an area around the content. The padding is transparent
+            Border - A border that goes around the padding and content
+            Margin - Clears an area outside the border. The margin is transparent</p>
+            <p>
+                Width and Height of an Element
+In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.
+            </p>
+ 
+ 
+        </div>
+     <div class="chapter6" id="ch6">
+        <h1>6.CSS Margins</h1>
+        <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+     </div>
+     <div class="chapter7" id="ch7">
+        <h1>7.CSS Borders</h1>
+        <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+     </div>
+     <div class="chapter8" id="ch8">
+        <h1>8.CSS grid</h1>
+        <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+     </div>
+     <div class="chapter9" id="ch9">
+        <h1>9.CSS flexbox</h1>
+        <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+     </div>
+     <div class="chapter10" id="ch10">
+        <h1>10.CSS padding</h1>
+        <hr>
+    <p> CSS is the language we use to style a Web page.</p>
+    <p> 1.CSS stands for Cascading Style Sheets</p>
+    <p>   2. CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <p>  3.CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+    <p>  4.External stylesheets are stored in CSS files</p>
+    <p>The selector points to the HTML element you want to style.
+
+        The declaration block contains one or more declarations separated by semicolons.
+        
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        
+        Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+     </div>
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+
+
+</body>
+</html>

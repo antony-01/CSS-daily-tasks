@@ -1,0 +1,52 @@
+div span:nth-child(even){
+    position:relative;
+    animation-name: example;
+    animation-duration: 0.8s;
+    animation-iteration-count: 30;
+
+    
+
+    }
+    div span:nth-child(odd){
+    position:relative;
+    animation-name: example1;
+    animation-duration: 0.8s;
+    animation-iteration-count: 30;
+   
+
+    }
+    div{
+        text-align:center;
+    }
+    div span{
+        font-size: 50px;
+    }
+    
+    @keyframes example{
+    0%{
+        top:5px;
+        color:blue;
+    }
+    50%{
+        color:cornflowerblue;
+    }
+    100%{
+        bottom:0px;
+        color:red;
+    }
+        
+    }
+    @keyframes example1{
+    0%{
+        bottom:5px;
+        color:green;
+    }
+    50%{
+        color:aqua;
+    }
+    100%{
+        top:0px;
+        color:purple;
+    }
+        
+    }

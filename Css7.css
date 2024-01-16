@@ -1,0 +1,31 @@
+h1{
+    color:brown;            /* text-color */
+    background-color: grey; /* background-color */
+    text-align: justify;
+}
+.p1{
+    text-align: justify;
+    text-align-last: right;
+}
+.p2{
+    direction: rtl;     /* text-directkion */
+    unicode-bidi: bidi-override;
+}
+span{
+    vertical-align: super;/* SUB */
+}
+.p4{
+    text-decoration: overline underline;  /*underline line-through */
+    text-decoration-color: red;
+    text-decoration-style:dotted;/*dashed dotted solid wavy */
+    text-decoration-thickness:2px;
+    /*text-decoration: 2px underline dashed red     (shorthand)*/
+   /*text-decoration:none */
+}
+.p5{
+text-transform:capitilize; /* lower case uppercase */
+}
+
+.p6{
+
+}

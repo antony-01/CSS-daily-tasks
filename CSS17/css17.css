@@ -1,0 +1,80 @@
+.div1{
+    animation-name:anime1;
+    animation-duration: 1s;
+    animation-delay:2s;
+    animation-iteration-count: 1;
+}
+.div2{
+    animation-name:anime2;
+    animation-duration: 1.2s;
+    animation-delay:2s;
+    animation-iteration-count: 2;
+}
+.div3{
+    animation-name:anime3;
+    animation-duration: 1.4s;
+    animation-delay:2s;
+    animation-iteration-count: 3;
+}
+.div4{
+    animation-name:anime4;
+    animation-duration: 1.6s;
+    animation-delay:2s;
+    animation-iteration-count: 4;
+}
+.div5{
+    animation-name:anime5;
+    animation-duration:1.8s;
+    animation-delay:2s;
+    animation-iteration-count: 5;
+}
+.div6{
+    animation-name:anime6;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-iteration-count: 6;
+}
+
+
+div{
+    
+    height:100px;
+    width:100px;
+    margin-left:550px;
+    margin-bottom:10px;
+    background-color:brown;
+    position:relative;
+}
+@keyframes anime1{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; left:-520px;}
+}
+@keyframes anime2{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; right:-520px;}
+}
+@keyframes anime3{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; left:-520px;}
+   
+}
+@keyframes anime4{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; left:-520px;}
+}
+@keyframes anime5{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; left:-520px;}
+    
+}
+@keyframes anime6{
+    0%{background-color:brown; top:0px; left:0px;}
+    75%{background-color:green; top:0px; left:520px;}
+    100%{background-color:green; top:0px; left:-520px;}
+    
+}
